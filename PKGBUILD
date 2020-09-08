@@ -56,6 +56,7 @@ makedepends=('git' 'autoconf' 'ncurses' 'bison' 'perl' 'fontforge' 'flex'
     'gcc>=4.5.0-2' 'spirv-headers'
     'vulkan-headers' 'vulkan-icd-loader'
     'lib32-vulkan-icd-loader' 'wine'
+    'glslang'
 )
 
 if [ "$_vkd3d_source" = "https://github.com/HansKristian-Work/vkd3d-proton" ] && [ "$_fork_disable_meson" = "false" ]; then
